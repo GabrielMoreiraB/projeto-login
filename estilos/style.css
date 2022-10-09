@@ -60,15 +60,36 @@ div#formulario > p{
 
 form > div.campo{
     background-color: #5f2c82;
+    border:2px solid #5f2c82;
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
-form.compo label{
+form > div.compo > label{
     display: none;
+}
+
+div.campo > span {
+    float:left;
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+}
+
+div.campo > input{
+    background-color: #63dad6;
+    font-size: 1em;
+    height: 100%;
+    border-radius: 8px;
+    width: calc(100%  - 44px);
+    
+
+
 }
 
 form > input[type=submit] {
