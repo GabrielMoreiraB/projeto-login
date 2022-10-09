@@ -23,7 +23,6 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     margin: auto;
     width: 250px;
@@ -33,6 +32,7 @@ section#login{
     box-shadow: 0px 0px 10pc rgba(0, 0, 0, 0.452);
     transition: width 0.5s, height 0.5s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 div#imagem{
@@ -88,8 +88,6 @@ div.campo > input{
     border-radius: 8px;
     width: calc(100%  - 44px);
     
-
-
 }
 
 form > input[type=submit] {
